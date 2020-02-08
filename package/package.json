@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "discord-token-generator@1.2.0",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "discord-token-generator@1.2.0",
+  "_id": "discord-token-generator@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-cKoV0rO+aSKVtMZKgWpoBr+PdboAQmuX2W6IGMtqnPOf/s0TbfJVZCZ/acrJz/1leqhUT/qGaOi7Lsz0EFkpWg==",
+  "_location": "/discord-token-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "discord-token-generator@1.2.0",
+    "name": "discord-token-generator",
+    "escapedName": "discord-token-generator",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord-token-generator/-/discord-token-generator-1.2.0.tgz",
+  "_shasum": "2969ae6d4886ad56bae71ee4e3c4be303096421c",
+  "_spec": "discord-token-generator@1.2.0",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "orels1"
+  },
+  "bugs": {
+    "url": "https://github.com/dreamloud/discord-token-generator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "express": "^4.16.2",
+    "node-fetch": "^1.7.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "deprecated": false,
+  "description": "![s](https://cdn-images-1.medium.com/max/800/1*64GSosmMFaKyBM5Dn_3aeQ.png)",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.5.1"
+  },
+  "homepage": "https://github.com/dreamloud/discord-token-generator#readme",
+  "keywords": [
+    "nodejs",
+    "react",
+    "discord"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "discord-token-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamloud/discord-token-generator.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch"
+  },
+  "version": "1.2.1"
+}
